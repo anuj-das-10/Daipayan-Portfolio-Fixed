@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home"       style="--i:1;" class="active">Home</a>
+            <a href="#about"      style="--i:2;">About</a>
+            <a href="#education"  style="--i:3;">Education</a>
+            <a href="#skills"     style="--i:4;">Skills</a>
+            <a href="#contact"    style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's me</h3><br>
+                <h1>Daipayan Dey</h1><br>
+                <h3>And I'm a <span>B.Sc in Computer Science Student</span></h3>
+                <p>Currently I'm a 2nd Semester Student</p>
+                <div class="social-media">
+                    <a href="#" style="--i:7;"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" style="--i:8;"><i class='bx bxl-github'></i></a>
+                    <a href="#" style="--i:9;"><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="home.png" alt="home">
+            </div>
+        </section>
+    
+        <section class="about" id="about">
+            <h2 class="heading">About<span>Me</span></h2>
+    
+           <div class="about__container">
+           
+                <div class="about-img">
+                    <img src="about.png" alt="">
+                </div>
+            
+                <div class="about-content">
+                    <h3>B.Sc In Computer Student</h3>
+                    <p>Don't know what to write.</p>
+                    <div class="btn">Know more!</div>
+                </div>
+           </div>
+    
+        </section>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
